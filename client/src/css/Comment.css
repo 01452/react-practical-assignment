@@ -1,0 +1,24 @@
+.comment_add {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+}
+
+.post_input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #dbdbdb;
+    font-size: 1.3rem;
+}
+
+.custom-button {
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.3rem;
+}

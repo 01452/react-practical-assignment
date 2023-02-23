@@ -1,0 +1,33 @@
+.login {
+    text-align: center;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.login_input {
+    border: 1px solid #dbdbdb;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    width: 300px;
+    max-width: 100%;
+}
+
+.custom-button {
+    padding: 8px 20px;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    background-color: #588eb1;
+    cursor: pointer;
+    transition: background-color 0.5s ease-out;
+}
+
+.custom-button:hover {
+    background-color: #59abd9;
+}
