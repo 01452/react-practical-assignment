@@ -1,1 +1,1 @@
-[]
+[{"id":1,"text":"Cool!","postId":1,"username":"Katy Perry","likes":["John Smith"],"dislikes":["Bart Google"],"date":"1677196086404"},{"id":2,"text":"Hot!","postId":2,"username":"John Smith","likes":[],"dislikes":["Bart Google"],"date":"1677196155321"},{"id":3,"text":"...","postId":1,"username":"Bart Google","likes":[],"dislikes":[],"date":"1677196214968"}]

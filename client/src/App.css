@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Playfair+Display&display=swap');
+
+:root {
+    --main-color: rgba(38, 0, 255, 0.685);
+    --main-radius: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: 1;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+:focus,
+:active {
+    outline: none;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.post-imagebox {
+    position: relative;
+    height: 250px;
+    width: 100%;
+}
+
+.imagebox-img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.post_input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: var(--main-radius);
+}
+
+.custom-button,
+.disabled-button {
+    color: white;
+    padding: 5px;
+    border-radius: var(--main-radius);
+    background-color: var(--main-color);
+}
+
+.disabled-button {
+    background-color: grey;
+    cursor: not-allowed;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+img {
+    vertical-align: top;
+    border-radius: var(--main-radius);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.post_container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.post_title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.post_content {
+    margin-bottom: 20px;
+    border-radius: var(--main-radius);
+}
+
+.post_button {
+    margin-top: 20px;
+}
+
+.post_author {
+    font-style: italic;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .post_container {
+        padding: 10px;
+    }
+    .post_title {
+        font-size: 20px;
+    }
+    .post_author {
+        font-size: 12px;
+    }
+}
+
+.custom-button{
+    background-color: transparent;
+}
+
+button[disabled] {
+    pointer-events: none;
+}
+button[disabled] {
+    pointer-events: none;
+}
